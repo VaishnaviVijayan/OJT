@@ -1,0 +1,29 @@
+Sepal Length (cm),Sepal Width (cm),Petal Length (cm),Petal Width (cm),Species
+5.1,3.5,1.4,0.2,FlowerA
+4.9,3.0,1.4,0.2,FlowerA
+4.7,3.2,1.3,0.2,FlowerA
+4.6,3.1,1.5,0.2,FlowerA
+5.0,3.6,1.4,0.2,FlowerA
+7.0,3.2,4.7,1.4,FlowerB
+6.4,3.2,4.5,1.5,FlowerB
+6.9,3.1,4.9,1.5,FlowerB
+5.5,2.3,4.0,1.3,FlowerB
+6.5,2.8,4.6,1.5,FlowerB
+6.3,3.3,6.0,2.5,FlowerC
+5.8,2.7,5.1,1.9,FlowerC
+7.1,3.0,5.9,2.1,FlowerC
+6.3,2.9,5.6,1.8,FlowerC
+6.5,3.0,5.8,2.2,FlowerC
+ 
+ 
+Questions for above dataset
+ 
+1.Load the dataset from a CSV file named sample_dataset.csv into a Pandas DataFrame. Display the first few rows of the dataset.
+2.Generate summary statistics for this dataset. What are the mean and standard deviation of the Sepal Length?
+3.Check for any missing values in the dataset. How would you handle them if there were any?
+4.Convert the species labels to numerical values using a mapping dictionary. For example, map 'FlowerA' to 0, 'FlowerB' to 1, and 'FlowerC' to 2.
+5.Split the dataset into training and testing sets with 70% training data and 30% testing data. Ensure that the split is stratified based on the species.
+6.Train a decision tree classifier on the training data. What parameters would you use for the decision tree?
+7.Visualize the trained decision tree.
+8.Predict the species for the testing data and compute the accuracy.
+9.Generate a classification report and a confusion matrix for the predictions.
